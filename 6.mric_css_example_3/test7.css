@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 760px;
+    /* height: 500px; */
+    background-color: green;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;/*auto container*/
+}
+.box{
+    width: 360px;
+    height: 150px;
+    background-color: yellow;
+    margin: 10px;
+    float: left;
+}

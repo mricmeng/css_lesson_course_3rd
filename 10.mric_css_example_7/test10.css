@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 760px;
+    margin: auto;
+    /* background-color: orange; */
+    padding: 10px;
+    box-shadow: 1px 1px 8px 0px dimgray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.item-box{
+    width: 100%;
+    height: 150px;
+    /* background-color: orange; */
+    display: flex;
+    gap: 10px;
+    box-shadow: 0px 0px 1px 0px grey;
+}
+.img-box{
+    width: 40%;
+    height: 100%;
+    /* background-color: black; */
+}
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.txt-box{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.txt-box h1{
+    font-size: 20px;
+    margin: 0;
+}
+.txt-box p{
+    font-size: 15px;
+    margin: 0;
+}
+.item-box-2{
+    width: 100%;
+    /* background-color:orangered; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 5px;
+}
+.item-box-2 .box{
+    width: 24.5%;
+    height: 200px;
+    /* background-color: cadetblue; */
+    display: flex;
+    flex-direction: column;
+}
+.item-box-2 .box img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.item-box-2 .box p{
+    font-size: 13px;
+    margin: 0;
+}
+.menu-bar{
+    width: 100%;
+    background-color: crimson;
+}
+.menu-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu-bar ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-bar ul li a:hover{
+    background-color: black;
+    color:yellow;
+    cursor: pointer;
+}
+.menu-left{
+    width: 250px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 10px;
+}
+.menu-left ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-left ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+.menu-left ul a:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: yellow;
+}

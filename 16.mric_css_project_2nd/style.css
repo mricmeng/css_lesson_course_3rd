@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    background-color: rgb(249, 249, 14);
+    padding:20px;
+}
+.header{
+    width: 100%;
+    /* background-color: orange; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.header img{
+    height: 150px;
+}
+.header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+.header ul li{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+}
+.header ul li:hover{
+    background-color: yellowgreen;
+}
+.item-container{
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    
+}
+.item-box{
+    width: 33%;
+    height: 300px;
+    /* background-color: brown;   */
+}
+.item-box img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    display: block;  
+    border-radius: 5px 0 5px 0;
+    box-shadow: 1px 1px 2px 0 gray;
+}
+.item-box img:hover{
+    width: 101%;
+}
+.item-box h1{
+    width: 100%;
+    height: 30%;
+    /* background-color: #eee; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    
+}
+.item-box h1:hover{
+    background-color:yellow ;
+}
