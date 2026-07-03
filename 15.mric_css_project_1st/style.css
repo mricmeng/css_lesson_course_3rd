@@ -28,14 +28,14 @@ body{
     background-color: white;
     color: green;
     padding: 8px 12px;
-    border-radius: 20px;
+    border-radius: 8px;
     text-decoration: underline;
 }
 .menu-bar ul li a:hover{
     background-color: white;
     color: green;
     padding: 8px 12px;
-    border-radius: 20px;
+    border-radius: 8px;
 
 }
 .head-box{
