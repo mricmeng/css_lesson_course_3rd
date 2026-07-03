@@ -68,5 +68,28 @@
 
 .menu{
     width: 80%;
-    background-color: yellow;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover{
+    background-color: #0973de;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
 }
