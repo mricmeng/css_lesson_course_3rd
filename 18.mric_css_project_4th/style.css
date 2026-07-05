@@ -121,7 +121,7 @@
     width: 24.5%;
     height: 350px;
     background-color: green;
-    box-shadow: 1px 1px 2px 0 dimgray;
+    box-shadow: 1px 1px 3px 0 dimgray;
     border-radius: 1px;
     overflow: hidden;
 }

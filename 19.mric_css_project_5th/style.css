@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body{
+    /* font-family: "Angkor", serif; */
+    font-family: "Suwannaphum", serif;
+    /* font-weight: 400; */
+    /* font-style: normal; */
+}
+
+.bar1{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-box{
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.logo-box a img{
+    height: 90px;
+    display: block;
+}
+
+.menu-bar{
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 80%;
+    /* background-color: brown; */
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li a{
+    /* display: block; */
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, "Angkor", serif;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.menu ul li a:hover{
+    background-color: brown;
+}
