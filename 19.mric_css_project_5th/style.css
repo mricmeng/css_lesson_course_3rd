@@ -246,7 +246,126 @@ body{
 .slide-container .ads1 ul li iframe{
     width: 100%;
     height: 100%;
+    border-radius: 4px;
 }
+
+.news-container{
+    width: 100%;
+    /* height: 500px; */
+    /* background-color: orange; */
+    margin-top: 10px;
+}
+
+.news-container .cate-title{
+    width: 100%;
+    /* background-color: green; */
+    /* border-bottom: 2px solid crimson; */
+    position: relative;
+}
+
+.news-container .cate-title::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: crimson;
+    bottom: 0;
+    left: 0;
+}
+
+.news-container .cate-title h1{
+    background-color: crimson;
+    color: white;
+    display: inline-block;
+    font-family: "Angkor", serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 5px 20px;
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+    padding-right: 30px;
+}
+
+.news-container .box-news{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 1px 1px 4px 0 dimgray;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+
+}
+
+.news-container .box-news .box1{
+    width: 30%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+.news-container .box-news .box1 .img-box{
+    width: 100%;
+    height: 60%;
+    /* background-color: bisque; */
+}
+
+.news-container .box-news .box1 .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.news-container .box-news .box1 .txt-box{
+    width: 100%;
+    height: 40%;
+    /* background-color: salmon; */
+    font-size: 18px;
+    /* padding: 9px; */
+
+}
+
+.news-container .box-news .box2{
+    width: 70%;
+    height: 100%;
+    /* background-color: lightgreen; */
+}
+
+.news-container .box-news .box2 ul{
+    width: 100%;
+    height: 100%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1%;
+}
+
+.news-container .box-news .box2 ul li{
+    width: 24.5%;
+    height: 49.5%;
+    /* background-color: pink; */
+}
+
+.news-container .box-news .box2 ul li a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+}
+
+.news-container .box-news .box2 ul li a img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    display: block;
+}
+
+.news-container .box-news .box2 ul li a span{
+    color: black;
+    font-size: 12px;
+    display: block;
+    line-height: 18px;
+}
+
+
 
 
 
