@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.container{
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+}
+
+.container .menu-bar{
+    width: 80%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .menu-bar ul{
+    display: flex;
+}
+
+.container .menu-bar ul li a{
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.container .menu-bar ul li.btn-menu{
+    display:block;
+}
+
+.container .menu-bar ul:nth-child(1) li:not(.btn-menu){
+    display: none;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media(min-width: 576px){
+    .container{
+        background-color: seagreen;
+    }
+    .container .menu-bar ul li a{
+        font-size: 18px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media(min-width: 768px){
+    .container{
+        background-color: skyblue;
+    }
+}
+
+/* Large devices (desktops, 992px and up */
+@media(min-width: 992px){
+    .container{
+        background-color: rgb(7, 90, 123);
+    }
+    .container .menu-bar ul li.btn-menu{
+    display:none;
+    }
+    .container .menu-bar ul:nth-child(1) li:not(.btn-menu){
+    display: block;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media(min-width: 1200px){
+    
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media(min-width: 1400px){
+    .container .menu-bar ul li a{
+        font-size: 22px;
+    }
+}
