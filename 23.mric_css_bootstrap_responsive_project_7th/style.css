@@ -4,6 +4,7 @@ body{
 
 .logo-container{
     /* background-color: seagreen; */
+    display: none;
 }
 
 .logo-box{
@@ -55,4 +56,90 @@ body{
 
 .logo .search-box .btn-search:hover{
     background-color: #999;
+}
+
+.menu-bar{
+    background-color: rgb(72, 189, 236);
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    padding: 8px 0;
+}
+
+.menu ul li a{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    text-decoration:none ;
+    color: white;
+    font-size: 15px;
+}
+
+.menu ul li a i{
+    font-size: 25px;
+}
+
+.menu ul li a span{
+    font-size: 15px;
+}
+
+.menu ul li a:hover{
+    background-color: #888;
+    border-radius: 5px;
+}
+
+.menu ul:nth-child(1) li.btn-menu{
+    display: block;
+}
+
+.menu ul:nth-child(1) li:not(.btn-menu){
+    display: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media(min-width: 576px){
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media(min-width: 768px){
+
+}
+
+/* Large devices (desktops, 992px and up */
+@media(min-width: 992px){
+    .logo-container{
+        display: block;
+    }
+
+    .menu ul:nth-child(1) li.btn-menu{
+        display: none;
+    }
+
+    .menu ul:nth-child(1) li:not(.btn-menu){
+        display: block;
+    }
+    
+    .menu ul:nth-child(2) li.btn-search-2{
+        display: none;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media(min-width: 1200px){
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media(min-width: 1400px){
+    
 }
